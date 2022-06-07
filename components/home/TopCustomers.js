@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import React from 'react'
-import Beenext from '../public/Beenext.svg'
-import IndiaQuotient from '../public/IndiaQuotient.svg'
-import kalari from '../public/kalaari.svg'
-import Blume from '../public/blume.svg'
+import Beenext from '../../public/Beenext.svg'
+import IndiaQuotient from '../../public/IndiaQuotient.svg'
+import kalari from '../../public/kalaari.svg'
+import Blume from '../../public/blume.svg'
 
 const TopCustomers = () => {
   return (

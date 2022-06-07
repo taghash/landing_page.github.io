@@ -19,19 +19,26 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 import {products} from '../helpers/products'
 import Image from 'next/image'
 import logo from '../public/Taghash.svg'
+import {useRouter} from 'next/router'
+
 
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+
+
 export default function Example() {
+  const router = useRouter()
+
+  
   return (
     <Popover className="relative bg-white">
       <div className="max-w-7xl mx-auto px-2 ">
         <div className="flex justify-between items-center border-gray-100 py-3 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            <a onClick={()=>router.push('/')}>
               <span className="sr-only">Workflow</span>
               <Image src={logo} width={100} h={20} />
             </a>
@@ -77,7 +84,7 @@ export default function Example() {
                           {products.map((item) => (
                             <a
                               key={item.name}
-                              href={item.href}
+                              onClick={()=> router.push(item.href)}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
                               <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />

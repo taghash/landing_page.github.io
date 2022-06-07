@@ -18,20 +18,20 @@ export const products = [
   {
     name: 'Analytics and Reporting',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
+    href: 'analytics',
     icon: ChartBarIcon,
   },
   {
     name: 'Deal Flow Management',
     description: 'Bring your deals from Email, Whatsapp, Pitch forms into a single portal. Collaborate, communicate and close seamlessly.',
-    href: '#',
+    href: 'dealflow',
     icon: CursorClickIcon,
   },
-  { name: 'Portfolio Management', description: "Centrally track your portfolio’s MIS, Investment and Valuation metrics. Improve governance in your portfolio by automatically detecting discrepancies in investor updates.", href: '#', icon: ShieldCheckIcon },
+  { name: 'Portfolio Management', description: "Centrally track your portfolio’s MIS, Investment and Valuation metrics. Improve governance in your portfolio by automatically detecting discrepancies in investor updates.", href: 'portfolio', icon: ShieldCheckIcon },
   {
     name: 'Fund Performance Management',
     description: 'Track your fund’s performance across multiple funds, currencies and investments across the lifetime of your fund.',
-    href: '#',
+    href: 'fund',
     icon: RefreshIcon,
   },
 ]

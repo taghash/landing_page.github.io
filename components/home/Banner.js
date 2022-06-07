@@ -3,7 +3,7 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <div className='p-20 flex bg-neutral-100 flex-col md:flex-row'>
+    <div className='p-20 flex bg-neutral-100 flex-col md:flex-row '>
         <div className='mt-12'>
             <h2 className='text-4xl pb-10 '>One Stop solution for PE/VC and Family Offices</h2>
             <div className='flex '>
@@ -16,8 +16,8 @@ const Banner = () => {
             </a>
             </div>
         </div>
-        <div  style={{marginTop: '-5%'}}>
-            <img src="https://taghash.io/landing-page/img/team.svg" alt="" className='w-6/10 sm:w-full sm:h-full' />
+        <div className='mt-20 bg-[url(../public/Taghash.svg)]'  >
+           
         </div>
     </div>
   )
