@@ -28,7 +28,7 @@ const Footer = () => {
                 <p className='text-[#6C708D]'>Get access to exclusive company building resources</p>
                 <p className='mt-4 text-[#6C708D] font-bold'>Email address</p>
                 <div className='mt-2 flex flex-row'>
-                    <input type="text" placeholder='Enter your email address' className='w-auto border-2 border-r-0 border-blue-500 p-2 outline-none rounded rounded-r-none' />
+                    <input type="text" placeholder='Enter your email address' className=' w-auto border-2 border-r-0 border-blue-500 p-2 outline-none rounded rounded-r-none' />
                     <a
                         href="#"
                         className="rounded-l-none  px-4   rounded-md  text-base font-medium text-white " style={{background: 'linear-gradient(90deg, hsl(231deg 89% 51%) 0%, hsl(210deg 100% 61%) 100%)', paddingBottom: '.7rem', paddingTop: '.7rem'}}

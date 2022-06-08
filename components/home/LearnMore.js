@@ -4,9 +4,9 @@ import placeholder from '../../public/placeholder.svg'
 
 const LearnMore = () => {
   return (
-    <div className='grid p-5 pt-1 pb-1 md:grid-cols-3 md:pl-40 mt-10 bg-[#6C708D] gap-0 md:gap-20'>
-        <div>
-            <Image src={placeholder} layout='responsive' />
+    <div className='grid p-5 pt-1 pb-1 md:grid-cols-2 md:pl-40 mt-10 bg-[#6C708D] gap-0 md:gap-10 lg:gap-0'>
+        <div className='mt-10 mb-5 w-full xl:w-1/2'>
+            <Image src={placeholder} className='' />
         </div>
         <div className='pt-0 md:pt-20 pb-5 '>
             <h5 className='text-white font-bold text-2xl pb-3'>Want to learn more?</h5>
