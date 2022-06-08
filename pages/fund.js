@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react'
 import Card from '../components/Card';
 import Footer from '../components/Footer';
@@ -9,6 +10,9 @@ import placeholder from '../public/Ellipse.svg'
 const fund = () => {
   return (
     <div>
+      <Head>
+            <title>Fund Management</title>
+        </Head>
         <Header/>
         <Banner 
             title='Fund management'

@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="">
       <Head>
-        <title>Taghash</title>
+        <title>Taghash - One-stop solution for VC/PE & Family Offices</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>

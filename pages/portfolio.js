@@ -5,10 +5,14 @@ import placeholder from '../public/Ellipse.svg'
 import {portfolioInfo} from '../helpers/Info'
 import Card from '../components/Card';
 import Footer from '../components/Footer';
+import Head from 'next/head';
 
 const portfolio = () => {
   return (
     <div>
+      <Head>
+            <title>Portfolio</title>
+        </Head>
         <Header/>
         <Banner
             title='Portfolio management' 
