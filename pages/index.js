@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Taghash</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>

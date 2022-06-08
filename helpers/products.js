@@ -16,22 +16,22 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 
 export const products = [
   {
-    name: 'Analytics and Reporting',
-    description: 'Get a better understanding of where your traffic is coming from.',
-    href: 'analytics',
-    icon: ChartBarIcon,
-  },
-  {
     name: 'Deal Flow Management',
-    description: 'Bring your deals from Email, Whatsapp, Pitch forms into a single portal. Collaborate, communicate and close seamlessly.',
+    description: 'Bring your deals from Email, Whatsapp, Pitch forms into a single portal.',
     href: 'dealflow',
     icon: CursorClickIcon,
   },
-  { name: 'Portfolio Management', description: "Centrally track your portfolio’s MIS, Investment and Valuation metrics. Improve governance in your portfolio by automatically detecting discrepancies in investor updates.", href: 'portfolio', icon: ShieldCheckIcon },
+  { name: 'Portfolio Management', description: "Centrally track your portfolio’s MIS, Investment and Valuation metrics. ", href: 'portfolio', icon: ShieldCheckIcon },
   {
     name: 'Fund Performance Management',
-    description: 'Track your fund’s performance across multiple funds, currencies and investments across the lifetime of your fund.',
+    description: 'Track your fund’s performance.',
     href: 'fund',
     icon: RefreshIcon,
   },
+  {
+    name: 'LP Reporting',
+    description: 'Create DIY Reports with metrics and charts from all the departments in the organization with qualitative and quantitative analysis laid on top. Brand your reports and track opens.',
+    href: 'lpreporting',
+    icon: ChartBarIcon
+  }
 ]

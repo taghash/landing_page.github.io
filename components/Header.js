@@ -102,10 +102,10 @@ export default function Example() {
               )}
             </Popover>
             
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a onClick={()=> router.push('/pricing')} className="text-base font-medium text-gray-500 hover:text-gray-900">
               Pricing
             </a>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a onClick={()=> router.push('/about')} className="text-base font-medium text-gray-500 hover:text-gray-900">
               About Us
             </a>
             <Popover className="relative">
@@ -163,7 +163,7 @@ export default function Example() {
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <a
               href="#"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-md  text-base font-medium text-white " style={{background: 'linear-gradient(90deg, #1536F1 0%, #379AFF 100%);'}}
+              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-md  text-base font-medium text-white " style={{background: 'linear-gradient(90deg, hsl(231deg 89% 51%) 0%, hsl(210deg 100% 61%) 100%)'}}
             >
               Contact Sales
             </a>

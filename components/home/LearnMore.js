@@ -6,7 +6,7 @@ const LearnMore = () => {
   return (
     <div className='grid p-5 pt-1 pb-1 md:grid-cols-3 md:pl-40 mt-10 bg-[#6C708D] gap-0 md:gap-20'>
         <div>
-            <Image src={placeholder} className='w-full h-full' width={400} />
+            <Image src={placeholder} layout='responsive' />
         </div>
         <div className='pt-0 md:pt-20 pb-5 '>
             <h5 className='text-white font-bold text-2xl pb-3'>Want to learn more?</h5>
