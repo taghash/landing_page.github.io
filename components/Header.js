@@ -85,7 +85,7 @@ export default function Example() {
                             <a
                               key={item.name}
                               onClick={()=> router.push(item.href)}
-                              className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                              className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100 cursor-pointer"
                             >
                               <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                               <div className="ml-4">
@@ -181,7 +181,7 @@ export default function Example() {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        <Popover.Panel focus className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+        <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
@@ -251,7 +251,7 @@ export default function Example() {
                 </Popover.Group>
               </div>
             </div>
-            <div className="py-6 px-5 space-y-6">
+            <div className=" px-5 space-y-6">
               <div className="grid  gap-y-4 gap-x-8">
                 <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Pricing
@@ -264,7 +264,7 @@ export default function Example() {
               <div>
                 <a
               href="#"
-              className="ml-2 w-full whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-md  text-base font-medium text-white " style={{background: 'linear-gradient(90deg, hsl(231deg 89% 51%) 0%, hsl(210deg 100% 61%) 100%)'}}
+              className="ml-2 mb-5 w-full whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-md  text-base font-medium text-white " style={{background: 'linear-gradient(90deg, hsl(231deg 89% 51%) 0%, hsl(210deg 100% 61%) 100%)'}}
             >
               Contact Sales
                 </a>

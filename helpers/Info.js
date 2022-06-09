@@ -208,3 +208,46 @@ export const familyInfo = [
     },
     
 ]
+
+export const securityInfo = [
+    {
+        image: placeholder2,
+        title: 'SOC2 certified',
+        desc: 'Netus egestas metus felis ut amet eget urna, massa at.'
+    },
+    {
+        image: placeholder2,
+        title: 'All emails, notes stored with double encryption',
+        desc: 'Military grade encryption - AES256'
+    },
+    {
+        image: placeholder2,
+        title: 'Documents, Databases stored encrypted at rest and in transit',
+        desc: ''
+    },
+    {
+        image: placeholder2,
+        title: 'Powerful role-based access control layer throughout the application',
+        desc: 'Netus egestas metus felis ut amet eget urna, massa at.'
+    },
+    {
+        image: placeholder2,
+        title: 'Dual backup Strategy',
+        desc: 'Local as well as off-site backups'
+    },
+    {
+        image: placeholder2,
+        title: 'Login with Google, Microsoft for SSO',
+        desc: 'Single-sign on support with google & microsoft sign in'
+    },
+    {
+        image: placeholder2,
+        title: 'We don\'t Read your entire inbox, sensitive emails',
+        desc: 'Netus egestas metus felis ut amet eget urna, massa at. '
+    },
+    {
+        image: placeholder2,
+        title: 'We don\'t share any information about your deals with any third parties',
+        desc: 'We are paranoid, so that you don\'t need to be'
+    }
+]

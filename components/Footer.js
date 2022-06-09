@@ -3,9 +3,12 @@ import React from 'react'
 import logo from '../public/Taghash.svg'
 import twiitter from '../public/twitter.svg'
 import linkedIn from '../public/linkedIn.svg'
+import { useRouter } from 'next/router';
 
 
 const Footer = () => {
+
+    const router = useRouter()
   return (
     <div className='p-10 pt-20 bg-[#F6F6FC]'>
         <div className='flex justify-around flex-col md:flex-row'>
@@ -48,11 +51,11 @@ const Footer = () => {
         </div>
         <div className='grid grid-cols-2 gap-10 md:grid-cols-6 px-20 pt-5 text-sm text-[#206CFF] '>
             <p className='text-black'>©Taghash</p>
-            <a href="" className='hover:opacity-80'>Terms</a>
-            <a href="" className='hover:opacity-80'>Security</a>
-            <a href="" className='hover:opacity-80'>Privacy</a>
-            <a href="" className='hover:opacity-80'>Help</a>
-            <a href="" className='hover:opacity-80'>Contact Us</a>
+            <a href="" className='cursor-pointer hover:opacity-80'>Terms</a>
+            <a href="" className='cursor-pointer hover:opacity-80'>Security</a>
+            <a  onClick={() => router.push('/privacy')} className='cursor-pointer hover:opacity-80'>Privacy</a>
+            <a href="" className='cursor-pointer hover:opacity-80'>Help</a>
+            <a href="" className='cursor-pointer hover:opacity-80'>Contact Us</a>
         </div>
     </div>
   )
