@@ -142,7 +142,7 @@ export default function Example() {
                           {products.map((item) => (
                             <a
                               key={item.name}
-                              href={item.href}
+                              
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
                               <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
@@ -202,7 +202,7 @@ export default function Example() {
                 <>
                   <Popover.Button
                     className={classNames(
-                      open ? 'text-gray-900' : 'text-gray-500',
+                       'text-gray-900' ,
                       'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                     )}
                   >
@@ -231,7 +231,7 @@ export default function Example() {
                           {products.map((item) => (
                             <a
                               key={item.name}
-                              href={item.href}
+                              onClick={()=> router.push(item.href)}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
                               <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
@@ -257,8 +257,8 @@ export default function Example() {
                   Pricing
                 </a>
 
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Docs
+                <a onClick={()=> router.push('/about')} className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  About Us
                 </a>
               </div>
               <div>

@@ -30,7 +30,7 @@ export const products = [
   },
   {
     name: 'LP Reporting',
-    description: 'Create DIY Reports with metrics and charts from all the departments in the organization with qualitative and quantitative analysis laid on top. Brand your reports and track opens.',
+    description: 'Create DIY Reports with metrics and charts from all the departments.',
     href: 'lpreporting',
     icon: ChartBarIcon
   }

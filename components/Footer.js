@@ -11,8 +11,8 @@ const Footer = () => {
     const router = useRouter()
   return (
     <div className='p-10 pt-20 bg-[#F6F6FC]'>
-        <div className='flex justify-around flex-col md:flex-row'>
-            <div className='pb-5 md:pb-0 hover:opacity-80'>
+        <div className='grid lg:grid-cols-4  md:grid-cols-2 '>
+            <div className='pb-5 cursor-pointer md:pb-0 hover:opacity-80' onClick={()=> router.push('/')}>
                 <Image src={logo} />
             </div>
             <div className='grid gap-5 text-[#050B30] font-medium pb-10 md:pb-0 '>
@@ -21,17 +21,17 @@ const Footer = () => {
                 <a href="" className='hover:opacity-80'>Fund Management</a>
                 <a href="" className='hover:opacity-80'>Limited Partner Reporting</a>
             </div>
-            <div className='grid gap-5 text-[#050B30] font-medium pb-10 md:pb-0'>
+            <div className='grid gap-5 text-[#050B30] font-medium pb-10 lg:pb-0 md:mt-10 lg:mt-0'>
                 <a href="" className='hover:opacity-80'>Pricing</a>
                 <a href="" className='hover:opacity-80'>About Us</a>
                 <a href="" className='hover:opacity-80'>Privacy & Security Centre</a>
                 <a href="" className='hover:opacity-80'>Compare to alternatives</a>
             </div>
-            <div className='flex flex-col'>
+            <div className='flex flex-col md:mt-10 lg:mt-0'>
                 <p className='text-[#6C708D]'>Get access to exclusive company building resources</p>
                 <p className='mt-4 text-[#6C708D] font-bold'>Email address</p>
                 <div className='mt-2 flex flex-row'>
-                    <input type="text" placeholder='Enter your email address' className=' w-auto border-2 border-r-0 border-blue-500 p-2 outline-none rounded rounded-r-none' />
+                    <input type="text" placeholder='Enter your email address' className=' w-full border-2 border-r-0 border-blue-500 p-2 outline-none rounded rounded-r-none' />
                     <a
                         href="#"
                         className="rounded-l-none  px-4   rounded-md  text-base font-medium text-white " style={{background: 'linear-gradient(90deg, hsl(231deg 89% 51%) 0%, hsl(210deg 100% 61%) 100%)', paddingBottom: '.7rem', paddingTop: '.7rem'}}

@@ -7,10 +7,10 @@ const Member = ({image, name, designation, linkedIn, twitter}) => {
         <div className='w-full md:w-1/3'>
             <Image src={image} className='' layout='intrinsic'  />
         </div>
-        <div className='flex flex-col justify-center align-middle'>
-            <p className='font-bold text-[15px] '>{name}</p>
-            <p className=' text-[12px] text-[#6C708D]'>{designation}</p>
-            <div className='pt-3 flex justify-start pl-10 pb-5'>
+        <div className='flex flex-col text-center md:text-left'>
+            <p className='font-bold text-[15px] lg:pl-5'>{name}</p>
+            <p className=' text-[12px] text-[#6C708D] lg:pl-5'>{designation}</p>
+            <div className='pt-3 flex justify-start pl-10 md:pl-0 lg:pl-5  pb-5'>
                 <div className='mr-5'>
                     <Image src={linkedIn} className='hover:opacity-80  cursor-pointer' />
                 </div>
