@@ -5,7 +5,7 @@ import Banner from '../components/home/Banner'
 import TopCustomers from '../components/home/TopCustomers'
 import LearnMore from '../components/home/LearnMore'
 import Footer from '../components/Footer'
-
+import ProductDeatails from '../components/home/ProductDetails'
 const Home = () => {
   return (
     <div className="">
@@ -16,6 +16,7 @@ const Home = () => {
       <Header/>
       <Banner/>
       <TopCustomers/>
+      {/* <ProductDeatails/> */}
       <LearnMore/>
       <Footer/>
     </div>
