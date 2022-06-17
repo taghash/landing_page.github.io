@@ -16,6 +16,12 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 
 export const products = [
   {
+    name: 'LP Deal Flow Management',
+    description: 'Bring your deals from Email, Whatsapp, Pitch forms into a single portal.',
+    href: 'lpdealflow',
+    icon: CursorClickIcon,
+  },
+  {
     name: 'Deal Flow Management',
     description: 'Bring your deals from Email, Whatsapp, Pitch forms into a single portal.',
     href: 'dealflow',
@@ -34,4 +40,13 @@ export const products = [
     href: 'lpreporting',
     icon: ChartBarIcon
   }
+]
+
+export const more = [
+  {
+    name: 'Compare',
+    description: 'Compare Taghash with it\'s competitor',
+    href: 'compare',
+    icon: CursorClickIcon,
+  },
 ]

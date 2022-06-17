@@ -16,7 +16,7 @@ import {
   XIcon,
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
-import {products} from '../helpers/products'
+import {more, products} from '../helpers/products'
 import Image from 'next/image'
 import logo from '../public/Taghash.svg'
 import {useRouter} from 'next/router'
@@ -101,10 +101,6 @@ export default function Example() {
                 </>
               )}
             </Popover>
-            
-            <a onClick={()=> router.push('/pricing')} className="text-base font-medium text-gray-500 hover:text-gray-900">
-              Pricing
-            </a>
             <a onClick={()=> router.push('/about')} className="text-base font-medium text-gray-500 hover:text-gray-900">
               About Us
             </a>
@@ -139,10 +135,10 @@ export default function Example() {
                     <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                          {products.map((item) => (
+                          {more.map((item) => (
                             <a
                               key={item.name}
-                              
+                              onClick={()=> router.push(item.href)}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
                               <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
@@ -253,10 +249,6 @@ export default function Example() {
             </div>
             <div className=" px-5 space-y-6">
               <div className="grid  gap-y-4 gap-x-8">
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Pricing
-                </a>
-
                 <a onClick={()=> router.push('/about')} className="text-base font-medium text-gray-900 hover:text-gray-700">
                   About Us
                 </a>
