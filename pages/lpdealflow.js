@@ -6,10 +6,25 @@ import Footer from '../components/Footer'
 import { dealFlowInfo } from '../helpers/Info'
 import Card from '../components/Card'
 import placeholder from '../public/Ellipse.svg'
+import {motion} from 'framer-motion'
+
+const containerVariants = {
+  hidden: { 
+    opacity: 0,
+  },
+  visible: { 
+    opacity: 1, 
+    transition:{ease: 'easeIn'}
+  },
+  exit: {
+    opacity: 0, 
+    transition:{ease: 'easeOut'}
+  }
+};
 
 const LpDealflow = () => {
   return (
-    <div className="">
+    <motion.div className="" variants={containerVariants} initial='hidden' animate='visible' exit='exit'>
       <Head>
         <title>LP DealFlow</title>
         <link rel="icon" href="/favicon.ico" />
@@ -24,7 +39,7 @@ const LpDealflow = () => {
         {dealFlowInfo.map(item => <Card title={item.title} body={item.body} image={item.image} />)}
       </div>
       <Footer/>
-    </div>
+    </motion.div>
   )
 }
 

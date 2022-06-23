@@ -6,7 +6,7 @@ import twitter from '../public/twitter.svg'
 export const dealFlowInfo = [
     {
         title: 'Email, Whatsapp, Pitch form Integration',
-        body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
+        body: 'Sync deal data from Email, WhatsApp, and Google forms into a single portal',
         image: placeholder
     },
     {
@@ -16,7 +16,7 @@ export const dealFlowInfo = [
     },
     {
         title: 'Collaboration, Email, Notes, Documents, Reminders',
-        body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
+        body: 'Communicate and collaborate with team members effortlessly',
         image: placeholder
     },
     {

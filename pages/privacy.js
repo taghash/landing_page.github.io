@@ -5,10 +5,25 @@ import Banner from '../components/Banner';
 import SecurityInfo from '../components/SecurityInfo'
 import Footer from '../components/Footer'
 import { securityInfo } from '../helpers/Info';
+import {motion} from 'framer-motion'
+
+const containerVariants = {
+  hidden: { 
+    opacity: 0,
+  },
+  visible: { 
+    opacity: 1, 
+    transition:{ease: 'easeIn'}
+  },
+  exit: {
+    opacity: 0, 
+    transition:{ease: 'easeOut'}
+  }
+};
 
 const privacy = () => {
   return (
-    <div>
+    <motion.div variants={containerVariants} initial='hidden' animate='visible' exit='exit'>
         <Head>
             <title>PRIVACY & SECURITY CENTRE</title>
         </Head>
@@ -18,7 +33,7 @@ const privacy = () => {
             {securityInfo.map(item => <SecurityInfo title={item.title} desc={item.desc} image={item.image} />)}
         </div>
         <Footer/>
-    </div>
+    </motion.div>
   )
 }
 

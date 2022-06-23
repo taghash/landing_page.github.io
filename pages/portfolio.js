@@ -6,10 +6,25 @@ import {portfolioInfo} from '../helpers/Info'
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 import Head from 'next/head';
+import {motion} from 'framer-motion'
+
+const containerVariants = {
+  hidden: { 
+    opacity: 0,
+  },
+  visible: { 
+    opacity: 1, 
+    transition:{ease: 'easeIn'}
+  },
+  exit: {
+    opacity: 0, 
+    transition:{ease: 'easeOut'}
+  }
+};
 
 const portfolio = () => {
   return (
-    <div>
+    <motion.div variants={containerVariants} initial='hidden' animate='visible' exit='exit'>
       <Head>
             <title>Portfolio</title>
         </Head>
@@ -23,7 +38,7 @@ const portfolio = () => {
             {portfolioInfo.map(item => <Card title={item.title} body={item.body} image={item.image} />)}
         </div>
         <Footer/>
-    </div>
+    </motion.div>
   )
 }
 

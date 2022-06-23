@@ -13,7 +13,7 @@ const LearnMore = () => {
             <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat atque ab molestias quo at ducimus provident ex expedita modi quidem.</p>
             <a
               href="#"
-              className="mt-5 whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-md  text-base font-medium text-[#206cff] bg-white " 
+              className="mt-5 whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-md  text-base font-medium text-[#206cff] bg-white hover:scale-105 hover:transition-all" 
             >
               Request Demo
             </a>

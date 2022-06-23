@@ -6,9 +6,26 @@ import TopCustomers from '../components/home/TopCustomers'
 import LearnMore from '../components/home/LearnMore'
 import Footer from '../components/Footer'
 import ProductDeatails from '../components/home/ProductDetails'
+import {motion} from 'framer-motion'
+
+const containerVariants = {
+  hidden: { 
+    opacity: 0,
+  },
+  visible: { 
+    opacity: 1, 
+    transition:{ease: 'easeIn'}
+  },
+  exit: {
+    opacity: 0, 
+    transition:{ease: 'easeOut'},
+    
+  }
+};
+
 const Home = () => {
   return (
-    <div className="">
+    <motion.div className="" variants={containerVariants} initial='hidden' animate='visible' exit='exit' >
       <Head>
         <title>Taghash - One-stop solution for VC/PE & Family Offices</title>
         <link rel="icon" href="/favicon.ico" />
@@ -19,7 +36,7 @@ const Home = () => {
       {/* <ProductDeatails/> */}
       <LearnMore/>
       <Footer/>
-    </div>
+    </motion.div>
   )
 }
 

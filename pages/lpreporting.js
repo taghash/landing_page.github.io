@@ -6,10 +6,25 @@ import Header from '../components/Header'
 import Banner from '../components/ProductBanner';
 import { lpInfo } from '../helpers/Info';
 import placeholder from '../public/Ellipse.svg'
+import {motion} from 'framer-motion'
+
+const containerVariants = {
+  hidden: { 
+    opacity: 0,
+  },
+  visible: { 
+    opacity: 1, 
+    transition:{ease: 'easeIn'}
+  },
+  exit: {
+    opacity: 0, 
+    transition:{ease: 'easeOut'}
+  }
+};
 
 const lpreporting = () => {
   return (
-    <div>
+    <motion.div variants={containerVariants} initial='hidden' animate='visible' exit='exit'>
       <Head>
             <title>Limited Partner Reporting</title>
         </Head>
@@ -23,7 +38,7 @@ const lpreporting = () => {
             {lpInfo.map(item => <Card title={item.title} body={item.body} image={item.image} />)}
         </div>
         <Footer/>
-    </div>
+    </motion.div>
   )
 }
 

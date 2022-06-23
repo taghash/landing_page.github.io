@@ -6,10 +6,25 @@ import Footer from '../components/Footer';
 import ValueVision from '../components/About/ValueVision';
 import Header from '../components/Header'
 import Head from 'next/head';
+import {motion} from 'framer-motion'
+
+const containerVariants = {
+  hidden: { 
+    opacity: 0,
+  },
+  visible: { 
+    opacity: 1, 
+    transition:{ease: 'easeIn'}
+  },
+  exit: {
+    opacity: 0, 
+    transition:{ease: 'easeOut'}
+  }
+};
 
 const about = () => {
   return (
-    <div>
+    <motion.div variants={containerVariants} initial='hidden' animate='visible' exit='exit'>
         <Head>
             <title>About Us</title>
         </Head>
@@ -19,7 +34,7 @@ const about = () => {
         <ValueVision/>
         <Awards/>
         <Footer />
-    </div>
+    </motion.div>
   )
 }
 
