@@ -9,6 +9,7 @@ import TopCustomers from '../components/home/TopCustomers';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import Services from '../components/About/Services';
+import Testimonials from '../components/About/Testimonials';
 
 const containerVariants = {
   hidden: {
@@ -43,6 +44,7 @@ const about = () => {
       />
       <TopCustomers />
       <Services />
+      <Testimonials />
       {/* <ValueVision/>
         <Awards/> */}
       <Footer />

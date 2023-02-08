@@ -9,6 +9,7 @@
     "@headlessui/react": "^1.6.4",
     "@heroicons/react": "^1.0.6",
     "framer-motion": "^6.3.11",
+    "framer-motion-carousel": "^2.0.1",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0"
