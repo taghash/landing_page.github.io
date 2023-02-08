@@ -37,7 +37,7 @@ const Testimonials = () => {
             <p className="md:px-auto mx-auto md:text-lg pb-3 leading-relaxed text-gray-400">
               {tst.body}
             </p>
-            <span className="inline-block h-1 w-10 rounded bg-[#00ff00] mt-8 mb-6"></span>
+            <span className="inline-block h-1 w-10 rounded bg-[#215af6] mt-8 mb-6"></span>
             <p className="title-font tracking-wider text-sm font-medium">
               {tst.title}
             </p>
