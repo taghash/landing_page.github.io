@@ -2,12 +2,39 @@ import placeholder from '../public/Rectangle.svg'
 import placeholder2 from '../public/Ellipse.svg'
 import linkedIn from '../public/linkedIn.svg'
 import twitter from '../public/twitter.svg'
+import integrations from '../public/integrations.svg'
+import collaborations from '../public/collaborations.svg'
+import customizations from '../public/customizations.svg'
+import investments from '../public/investments.svg'
+import privacy from '../public/privacy.svg'
+import analytics from '../public/analytics.svg'
+import intelligence from '../public/intelligence.svg'
+import monioring from '../public/monioring.svg'
+import budgetForcast from '../public/budgetForcast.svg'
+import governance from '../public/governance.svg'
+import importFromMIS from '../public/importFromMIS.svg'
+import derivedMetrics from '../public/derivedMetrics.svg'
+import automatedHealthReport from '../public/automatedHealthReport.svg'
+import perCompanyBI from '../public/perCompanyBI.svg'
+import investmentTracking from '../public/investmentTracking.svg'
+import valuations from '../public/valuations.svg'
+import automaticInvestmentPerformance from '../public/automaticInvestmentPerformance.svg'
+import contribution from '../public/contribution.svg'
+import granularPermissions from '../public/granularPermissions.svg'
+import customForexRates from '../public/customForexRates.svg'
+import fundPerformance from '../public/fundPerformance.svg'
+import DIYLpReports from '../public/DIYLpReports.svg'
+import includeReportsFromDealflow from '../public/includeReportsFromDealflow.svg'
+import includeQualitativeCommentry from '../public/includeQualitativeCommentry.svg'
+import useTemplate from '../public/useTemplate.svg'
+import sendReports from '../public/sendReports.svg'
+import trackOpen from '../public/trackOpen.svg'
 
 export const dealFlowInfo = [
     {
         title: 'Email, Whatsapp, Pitch form Integration',
         body: 'Sync deal data from Email, WhatsApp, and Google forms into a single portal',
-        image: placeholder
+        image: integrations
     },
     {
         title: 'List, Kanban, Table View',
@@ -17,32 +44,32 @@ export const dealFlowInfo = [
     {
         title: 'Collaboration, Email, Notes, Documents, Reminders',
         body: 'Communicate and collaborate with team members effortlessly',
-        image: placeholder
+        image: collaborations
     },
     {
         title: 'Customization, Stages, Custom Fields, Custom Categories',
         body: 'Netus egestas metus felis ut amet eget urna, massa at.',
-        image: placeholder
+        image: customizations
     },
     {
         title: 'Investment Process, Sign OFfs',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
-        image: placeholder
+        image: investments
     },
     {
         title: 'Privacy, Workspaces, Permissions',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
-        image: placeholder
+        image: privacy
     },
     {
         title: 'Analytics & Business Intelligence',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
-        image: placeholder
+        image: analytics
     },
     {
         title: 'Intelligence - Autofill, Signals, Movements',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
-        image: placeholder
+        image: intelligence
     }
 ]
 
@@ -50,62 +77,62 @@ export const portfolioInfo = [
     {
         title: 'Portfolio monitoring',
         body: 'Profit&Loss Statements, Balance Sheets, KPIs & Operational Metrics. Fully customisable.',
-        image: placeholder
+        image: monioring
     },
     {
         title: 'Budget forecasts',
         body: 'Budget vs Actuals',
-        image: placeholder
+        image: budgetForcast
     },
     {
         title: 'Governance checklist',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
-        image: placeholder
+        image: governance
     },
     {
         title: 'Import DIrectly from MIS reports',
         body: 'Netus egestas metus felis ut amet eget urna, massa at.',
-        image: placeholder
+        image: importFromMIS
     },
     {
         title:'Derived Metrics',
         body: 'Use the formula engine to define derived metrics like Gross Margin, runway etc and see it be automatically populated each month from the source metrics',
-        image: placeholder
+        image: derivedMetrics
     },
     {
         title: 'Automated health reports',
         body: 'Define reports that automatically calculate Quarter-to-Date, Year-To-Date metrics from the MIS reports. Slice and dice the metrics in reports will a couple of clicks',
-        image: placeholder
+        image: automatedHealthReport
     },
     {
         title: 'Per-Company BI Dashboard',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
-        image: placeholder
+        image: perCompanyBI
     },
     {
         title: 'Investment Transactions Tracking',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
-        image: placeholder
+        image: investmentTracking
     },
     {
         title: 'Valuation Events',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
-        image: placeholder,
+        image: valuations,
     },
     {
         title: 'Automatic Investment Performance, IRR Calculation',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque.',
-        image: placeholder
+        image: automaticInvestmentPerformance
     },
     {
         title: 'Portfolio Support & Contribution',
         body: 'News about portfolio company and competitors',
-        image: placeholder
+        image: contribution
     },
     {
         title: 'Granular permissions',
         body: 'Individual & Team based permissions. WIthin a portco, finance team sees only finance data, HR team sees only hiring emails, admin sees all',
-        image: placeholder
+        image: granularPermissions
     }
 ]
 
@@ -123,12 +150,12 @@ export const fundInfo = [
     {
         title: 'Use custom forex rates',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque dignissim aliquam est tincidunt arcu. ',
-        image: placeholder
+        image: customForexRates
     },
     {
         title: 'Automatic fund performance report',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. ',
-        image: placeholder
+        image: fundPerformance
     },
     {
         title: 'Fund performance analysis',
@@ -141,32 +168,32 @@ export const lpInfo = [
     {
         title: 'DIY LP reports',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque dignissim aliquam est tincidunt arcu. ',
-        image: placeholder
+        image: DIYLpReports
     },
     {
         title: 'Include analytics from dealflow, portfolio metrics, valuation metrics',
         body: 'Netus egestas metus felis ut amet eget urna, massa at.',
-        image: placeholder
+        image: includeReportsFromDealflow
     },
     {
         title: 'Include qualitative commentary',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. Pellentesque dignissim aliquam est tincidunt arcu. ',
-        image: placeholder
+        image: includeQualitativeCommentry
     },
     {
         title: 'Use templates or create your own',
         body: 'Netus egestas metus felis ut amet eget urna, massa at. Feugiat risus vitae vel blandit turpis mauris et eu tortor. Nec purus sit morbi vulputate sit ornare et vel. ',
-        image: placeholder
+        image: useTemplate
     },
     {
         title: 'Send reports as newsletter or download',
         body: 'Slice across different cuts, to perform sectoral, geography, time period, partner performance analysis in a couple of clicks.',
-        image: placeholder
+        image: sendReports
     },
     {
         title: 'Track opens (coming soon)',
         body: 'Slice across different cuts, to perform sectoral, geography, time period, partner performance analysis in a couple of clicks.',
-        image: placeholder
+        image: trackOpen
     }
 ]
 

@@ -5,7 +5,7 @@ import Banner from '../components/ProductBanner'
 import Footer from '../components/Footer'
 import { dealFlowInfo } from '../helpers/Info'
 import Card from '../components/Card'
-import placeholder from '../public/Ellipse.svg'
+import dealflow from '../public/dealflow.svg'
 import {motion} from 'framer-motion'
 
 const containerVariants = {
@@ -33,7 +33,7 @@ const Dealflow = () => {
       <Banner 
         title='Dealflow management'
         desc='Bring your deals from Email, Whatsapp, Pitch forms into a single portal. Collaborate, communicate and close seamlessly.'
-        image={placeholder}
+        image={dealflow}
         />
       <div className='grid lg:grid-cols-3 md:grid-cols-2 p-10 gap-10 bg-[#ffff]'>
         {dealFlowInfo.map(item => <Card title={item.title} body={item.body} image={item.image} />)}
