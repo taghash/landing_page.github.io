@@ -7,6 +7,7 @@ import {
   RefreshIcon,
   ShieldCheckIcon,
   ChevronDoubleUpIcon,
+  HeartIcon,
 } from '@heroicons/react/outline';
 import dealflowIcon from '../public/thumbsUpDown.svg';
 
@@ -83,5 +84,11 @@ export const more = [
     description: "Compare Taghash with it's competitor",
     href: 'compare',
     icon: CursorClickIcon,
+  },
+  {
+    name: 'Customer Love',
+    description: 'Why customers love taghash',
+    href: 'customerlove',
+    icon: HeartIcon,
   },
 ];
