@@ -34,7 +34,7 @@ const Philosophy = () => {
       <h2 className="font-bold text-2xl text-center p-5">
         Our product philosophy
       </h2>
-      <div className="grid grid-cols-3 p-16">
+      <div className="grid grid-cols-3 p-24 gap-5">
         {philosophies.map(philosophi => (
           <Card
             imageStyles="w-full px-36 pt-3"
