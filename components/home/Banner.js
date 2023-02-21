@@ -34,7 +34,7 @@ const Banner = () => {
             </a>
             </div>
         </motion.div>
-        <motion.div className='z-1 w-2/3 mt-5 ml-10 md:w-1/3' variants={containerVariants} initial='hidden' animate='visible' exit='exit'>
+        <motion.div className='z-1 w-2/3 mt-5 ml-10 md:w-2/5' variants={containerVariants} initial='hidden' animate='visible' exit='exit'>
            <Image src={oneStopSolutions} />
         </motion.div>
     </div>

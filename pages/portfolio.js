@@ -34,7 +34,7 @@ const portfolio = () => {
             desc='Centrally track your portfolio’s MIS, Investment and Valuation metrics. Improve governance in your portfolio by automatically detecting discrepancies in investor updates.'
             image={portfolioManagement}
         />
-        <div className='grid md:grid-cols-2 p-10 gap-5 bg-[#ffff]'>
+        <div className='grid md:grid-cols-3 p-10 gap-5 bg-[#ffff]'>
             {portfolioInfo.map(item => <Card title={item.title} body={item.body} image={item.image} />)}
         </div>
         <Footer/>

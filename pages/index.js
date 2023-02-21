@@ -5,7 +5,7 @@ import Banner from '../components/home/Banner'
 import TopCustomers from '../components/home/TopCustomers'
 import LearnMore from '../components/home/LearnMore'
 import Footer from '../components/Footer'
-import ProductDeatails from '../components/home/ProductDetails'
+import ProductDeatails from '../components/ProductsDetails'
 import {motion} from 'framer-motion'
 
 const containerVariants = {
@@ -33,7 +33,7 @@ const Home = () => {
       <Header/>
       <Banner/>
       <TopCustomers/>
-      {/* <ProductDeatails/> */}
+      <ProductDeatails/>
       <LearnMore/>
       <Footer/>
     </motion.div>

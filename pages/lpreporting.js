@@ -34,7 +34,7 @@ const lpreporting = () => {
             desc='Create DIY Reports with metrics and charts from all the departments in the organization with qualitative and quantitative analysis laid on top. Brand your reports and track opens.'
             image={lpReporting}
         />
-        <div className='grid md:grid-cols-2 p-10 gap-5 bg-[#ffff]'>
+        <div className='grid md:grid-cols-3 p-10 gap-5 bg-[#ffff]'>
             {lpInfo.map(item => <Card title={item.title} body={item.body} image={item.image} />)}
         </div>
         <Footer/>

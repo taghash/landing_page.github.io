@@ -40,7 +40,7 @@ const services = [
 const Services = () => {
   return (
     <div className="p-5 md:p-10 bg-neutral-100 " id="services">
-      <h4 className="font-bold text-2xl text-center p-5 pb-10">SERVICES</h4>
+      <h4 className="font-bold text-2xl text-center p-5 pb-10 capitalize">Offerings</h4>
       {/* <h2 className="text-center text-2xl md:text-3xl pb-10 md:mb-10">
         Taking Your Business to <br /> the Next Level
       </h2> */}

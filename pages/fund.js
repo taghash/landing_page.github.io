@@ -34,7 +34,7 @@ const fund = () => {
             desc='Track your fund’s performance across multiple funds, currencies and investments across the lifetime of your fund.'
             image={fundManagement}
         />
-        <div className='grid md:grid-cols-2 p-10 gap-5 bg-[#ffff]'>
+        <div className='grid md:grid-cols-3 p-10 gap-5 bg-[#ffff]'>
             {fundInfo.map(item => <Card title={item.title} body={item.body} image={item.image} />)}
         </div>
         <Footer/>
