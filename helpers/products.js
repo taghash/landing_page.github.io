@@ -8,6 +8,7 @@ import {
   ShieldCheckIcon,
   ChevronDoubleUpIcon,
 } from '@heroicons/react/outline';
+import dealflowIcon from '../public/thumbsUpDown.svg';
 
 import { BriefcaseIcon } from '@heroicons/react/solid';
 import dealflow from '../public/dealflow.svg';

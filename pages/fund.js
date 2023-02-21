@@ -31,7 +31,7 @@ const fund = () => {
         <Header/>
         <Banner 
             title='Fund management'
-            desc='Track your fund’s performance across multiple funds, currencies and investments across the lifetime of your fund.'
+            desc='Track your fund’s performance across multiple funds holdings, currencies and investments across the lifetime of your fund.'
             image={fundManagement}
         />
         <div className='grid md:grid-cols-3 p-10 gap-5 bg-[#ffff]'>
