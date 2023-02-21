@@ -33,9 +33,12 @@ const Banner = () => {
         animate="visible"
         exit="exit"
       >
-        <h2 className="text-2xl md:text-4xl pb-10 ">
-          One Stop solution for <br /> PE/VC and Family Offices
+        <h2 className="text-2xl md:text-4xl pb-2  ">
+          Software for <br /> PE/VC and Family Offices
         </h2>
+        <p className="mb-10 ">
+          To Connect, Collaborate, Communicate and Close.
+        </p>
         {/* <div className="flex ">
           <input
             type="text"
@@ -56,7 +59,7 @@ const Banner = () => {
         <div className="grid md:grid-cols-2 gap-3">
           <Button title="Deal Flow Management" target="/dealflow"></Button>
           <Button
-            classNames="bg-teal-500 hover:bg-teal-300 "
+            // classNames="bg-teal-500 hover:bg-teal-300 "
             title="Portfolio Management"
             target="/portfolio"
           ></Button>
@@ -66,11 +69,11 @@ const Banner = () => {
             target="/fund"
           ></Button>
           <Button
-            classNames="bg-teal-500 hover:bg-teal-300 "
+            // classNames="bg-teal-500 hover:bg-teal-300 "
             title="LP Reporting"
             target="/lpreporting"
           ></Button>
-          <Button
+          {/* <Button
             // classNames="bg-teal-500 hover:bg-teal-300 "
             title="Deal Flow BI"
             target="/deaflowbi"
@@ -79,7 +82,7 @@ const Banner = () => {
             classNames="bg-teal-500 hover:bg-teal-300 "
             title="Taghash Advantages"
             target="/taghashAdvantages"
-          ></Button>
+          ></Button> */}
         </div>
       </motion.div>
 
